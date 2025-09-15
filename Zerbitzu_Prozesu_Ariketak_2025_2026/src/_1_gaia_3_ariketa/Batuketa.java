@@ -1,9 +1,9 @@
-package prozesuAnitzekoProgramazioa_1;
+package _1_gaia_3_ariketa;
 /**
  * Tarte batean dauden zenbakien arteko batura egiten du
  * Zenbaki horiek programaren lehen bi parametro bezala pasatuko zaizkio
  */
-public class Ariketa_4 {
+public class Batuketa {
 
     public static void main(String[] args) {
     	//Prozesuaren IDa lortu
