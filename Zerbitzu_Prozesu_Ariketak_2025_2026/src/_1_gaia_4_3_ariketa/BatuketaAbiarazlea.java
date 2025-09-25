@@ -1,4 +1,4 @@
-package _1_gaia_3_ariketa;
+package _1_gaia_4_3_ariketa;
 
 import java.io.IOException;
 
@@ -10,21 +10,36 @@ public class BatuketaAbiarazlea {
 
 			// Batuketa klasea abiarazi, paketea zehaztuz
 			ProcessBuilder processBuilder_1 = new ProcessBuilder("java", "-cp", classpath,
-					"prozesuAnitzekoProgramazioa_1.Batuketa", "6", "10");
+					"_1_gaia_4_3_ariketa.Batuketa", "1", "250000000");
 			ProcessBuilder processBuilder_2 = new ProcessBuilder("java", "-cp", classpath,
-					"prozesuAnitzekoProgramazioa_1.Batuketa", "6000", "10000000");
+					"_1_gaia_4_3_ariketa.Batuketa", "250000001", "500000000");
+			ProcessBuilder processBuilder_3 = new ProcessBuilder("java", "-cp", classpath,
+					"_1_gaia_4_3_ariketa.Batuketa", "500000001", "750000000");
+			ProcessBuilder processBuilder_4 = new ProcessBuilder("java", "-cp", classpath,
+					"_1_gaia_4_3_ariketa.Batuketa", "750000001", "999999999");
 
 			// Sarrera eta irteera jarauntsi (heredar)
 			processBuilder_1.inheritIO();
 			processBuilder_2.inheritIO();
+			processBuilder_3.inheritIO();
+			processBuilder_4.inheritIO();
+
 			// Prozesua abiarazi
-			Process process_2 = processBuilder_2.start();
 			Process process_1 = processBuilder_1.start();
+			Process process_2 = processBuilder_2.start();
+			Process process_3 = processBuilder_3.start();
+			Process process_4 = processBuilder_4.start();
+
 			// Itxaron prozesua bukatu arte
-			int exitCode_1 = process_2.waitFor();
+			int exitCode_1 = process_1.waitFor();
 			System.out.println("\n 1 Prozesua bukatu da irteera kode honekin: " + exitCode_1);
-			int exitCode_2 = process_1.waitFor();
+			int exitCode_2 = process_2.waitFor();
 			System.out.println("\n 2 Prozesua bukatu da irteera kode honekin: " + exitCode_2);
+			int exitCode_3 = process_3.waitFor();
+			System.out.println("\n 3 Prozesua bukatu da irteera kode honekin: " + exitCode_3);
+			int exitCode_4 = process_4.waitFor();
+			System.out.println("\n 4 Prozesua bukatu da irteera kode honekin: " + exitCode_4);
+
 		} catch (IOException | InterruptedException e) {
 			e.printStackTrace();
 		}

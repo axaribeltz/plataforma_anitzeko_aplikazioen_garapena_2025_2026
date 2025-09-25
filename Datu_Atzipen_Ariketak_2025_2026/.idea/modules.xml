@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/datu-atzipena.iml" filepath="$PROJECT_DIR$/datu-atzipena.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datu_Atzipen_Ariketak_2025_2026.iml" filepath="$PROJECT_DIR$/Datu_Atzipen_Ariketak_2025_2026.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NikEgindakoak/NikEgindakoak.iml" filepath="$PROJECT_DIR$/NikEgindakoak/NikEgindakoak.iml" />
     </modules>
   </component>
 </project>

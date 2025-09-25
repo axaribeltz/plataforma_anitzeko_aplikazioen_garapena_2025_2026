@@ -1,4 +1,4 @@
-package _1_gaia_4_ariketa;
+package _1_gaia_3_4_ariketa;
 /**
  * Tarte batean dauden zenbakien arteko batura egiten du
  * Zenbaki horiek programaren lehen bi parametro bezala pasatuko zaizkio
