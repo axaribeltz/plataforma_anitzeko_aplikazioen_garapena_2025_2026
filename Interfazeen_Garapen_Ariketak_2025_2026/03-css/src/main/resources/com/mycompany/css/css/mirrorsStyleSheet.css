@@ -1,0 +1,8 @@
+
+#lblOpcionElegida {
+    -fx-background-color: grey;
+    -fx-font-style: italic;
+    -fx-font-size: 24pt;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+}

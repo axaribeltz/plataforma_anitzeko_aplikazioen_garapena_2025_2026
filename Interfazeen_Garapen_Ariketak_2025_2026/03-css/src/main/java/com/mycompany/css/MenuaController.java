@@ -23,6 +23,10 @@ public class MenuaController implements Initializable {
     private Button btnPersonDetails;
     @FXML
     private Button btnLoginScreen;
+    @FXML
+    private Button btnPasswordScreen;
+    @FXML
+    private Button btnMirrorsScreen;
 
     /**
      * Initializes the controller class.
@@ -40,6 +44,16 @@ public class MenuaController implements Initializable {
     @FXML
     private void btnGoToLoginScreen(ActionEvent event) throws IOException {
         App.setRoot("loginScreen");
+    }
+
+    @FXML
+    private void btnPasswordScreenAction(ActionEvent event) throws IOException {
+        App.setRoot("passwordScreen");
+    }
+
+    @FXML
+    private void btnMirrorsScreenAction(ActionEvent event) throws IOException {
+        App.setRoot("mirrorsAplication");
     }
     
 }

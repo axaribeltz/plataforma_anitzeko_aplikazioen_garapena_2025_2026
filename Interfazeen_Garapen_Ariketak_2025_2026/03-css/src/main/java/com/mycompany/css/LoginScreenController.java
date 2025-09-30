@@ -56,6 +56,7 @@ public class LoginScreenController implements Initializable {
             mostrarAlertError();
         }
     }
+    
     private void mostrarAlertError() {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setHeaderText("Usuario o contraseña incorrectos");

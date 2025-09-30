@@ -5,8 +5,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/24.0.1" fx:controller="com.mycompany.css.MenuaController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.css.MenuaController">
    <children>
       <Button fx:id="btnPersonDetails" layoutX="200.0" layoutY="70.0" mnemonicParsing="false" onAction="#btnGoToPersonDetails" prefWidth="200.0" text="Person Details" />
       <Button fx:id="btnLoginScreen" layoutX="200.0" layoutY="102.0" mnemonicParsing="false" onAction="#btnGoToLoginScreen" prefWidth="200.0" text="Login Screen" />
@@ -15,5 +14,7 @@
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
+      <Button fx:id="btnPasswordScreen" layoutX="200.0" layoutY="135.0" mnemonicParsing="false" onAction="#btnPasswordScreenAction" prefWidth="200.0" text="Password Screen" />
+      <Button fx:id="btnMirrorsScreen" layoutX="200.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnMirrorsScreenAction" prefWidth="200.0" text="Mirrors Aplication" />
    </children>
 </AnchorPane>

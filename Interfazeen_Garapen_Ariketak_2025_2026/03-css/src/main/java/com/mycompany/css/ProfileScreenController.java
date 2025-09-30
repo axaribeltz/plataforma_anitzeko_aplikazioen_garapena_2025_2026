@@ -4,6 +4,7 @@
  */
 package com.mycompany.css;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -30,7 +31,7 @@ public class ProfileScreenController implements Initializable {
     }    
 
     @FXML
-    private void SwitchToPrimaryView(ActionEvent event) {
+    private void SwitchToPrimaryView(ActionEvent event) throws IOException {
         App.setRoot("loginScreen");
     }
     
