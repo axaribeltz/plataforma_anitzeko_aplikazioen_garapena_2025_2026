@@ -1,7 +1,9 @@
+package ErrepasoAriketak;
+
 import java.io.*;
 import java.util.ArrayList;
 
-public class Errepaso {
+public class ErrepasoAriketa_1 {
     public static void main(String[] args) throws IOException {
         //TEXTUA IRAKURRI eta MAYUSKULAK MINUSKULA jarri eta MINUSKULAK MAYUSKULA
         File file = new File("C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Datu_Atzipen_Ariketak_2025_2026\\Errepaso\\src\\Idiazabal.txt");

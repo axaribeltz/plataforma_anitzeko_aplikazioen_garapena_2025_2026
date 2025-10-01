@@ -31,9 +31,10 @@ public class DatuAtzipena  {
 
             FileWriter fileWriter = new FileWriter(file); // A stream that connects to the text file
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter); // Connect the FileWriter to the BufferedWriter
+            bufferedWriter.close();
 
             bufferedReader.close();
-            bufferedWriter.close();
+
         } catch (Exception e) {
             e.printStackTrace();
         }

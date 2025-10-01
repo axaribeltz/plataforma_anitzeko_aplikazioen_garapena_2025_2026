@@ -12,7 +12,7 @@ public class IdatziObjektuak {
 		Pertsona p3= new Pertsona("CCCC", "CCCC", "123456");
 		
 		
-		ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream("C:\\Users\\aelorza\\eclipse-workspace\\Fitxategiak\\src\\FitxategiBitarrak\\Objektuak\\perOb.bit"));
+		ObjectOutputStream oos=new ObjectOutputStream(new FileOutputStream("C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Datu_Atzipen_Ariketak_2025_2026\\Fitxategi Mota Batzuen Adibidea\\ObjektuBitarrakAdibidea\\perOb.txt"));
 		
 		oos.writeObject(p1);		
 		oos.close();
