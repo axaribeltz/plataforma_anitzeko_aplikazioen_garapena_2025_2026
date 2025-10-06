@@ -16,5 +16,6 @@
       </Label>
       <Button fx:id="btnPasswordScreen" layoutX="200.0" layoutY="135.0" mnemonicParsing="false" onAction="#btnPasswordScreenAction" prefWidth="200.0" text="Password Screen" />
       <Button fx:id="btnMirrorsScreen" layoutX="200.0" layoutY="167.0" mnemonicParsing="false" onAction="#btnMirrorsScreenAction" prefWidth="200.0" text="Mirrors Aplication" />
+      <Button fx:id="btnPersonList" layoutX="200.0" layoutY="200.0" mnemonicParsing="false" onAction="#switchToPersonList" prefWidth="200.0" text="Person list" />
    </children>
 </AnchorPane>

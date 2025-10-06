@@ -7,7 +7,7 @@ public class Batuketa {
     	
         long pid = ProcessHandle.current().pid();
         System.out.println("Nire PID da: " + pid + " - Sarrerak: " + args[0] + ", " + args[1]);       
-        System.out.println("Nire PID da: " + pid + " - Emaitza: " +  batura(args));
+        System.out.println("\nNire PID da: " + pid + " - Emaitza: " +  batura(args));
         
         long amaierakoDenbora = System.currentTimeMillis();
         long iraupenaMilisegundotan = amaierakoDenbora - hasierakoDenbora;
