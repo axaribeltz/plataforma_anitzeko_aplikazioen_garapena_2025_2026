@@ -1,4 +1,4 @@
-package ErrepasoAriketak;
+package ErrepasoAriketak.a02;
 
 import java.io.Serializable;
 

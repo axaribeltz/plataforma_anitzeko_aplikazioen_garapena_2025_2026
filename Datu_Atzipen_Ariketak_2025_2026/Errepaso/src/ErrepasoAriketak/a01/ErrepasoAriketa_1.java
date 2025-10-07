@@ -1,4 +1,4 @@
-package ErrepasoAriketak;
+package ErrepasoAriketak.a01;
 
 import java.io.*;
 import java.util.ArrayList;
