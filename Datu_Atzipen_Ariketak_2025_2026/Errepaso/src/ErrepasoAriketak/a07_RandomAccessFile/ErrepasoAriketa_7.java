@@ -2,124 +2,110 @@ package ErrepasoAriketak.a07_RandomAccessFile;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
-import java.nio.charset.StandardCharsets;
 
 public class ErrepasoAriketa_7 {
-    // Variable que almacenará la longitud total de un registro (suma de todos los anchos)
-    static int longReg = 0;
-
-    // Array con el ancho (número de caracteres) de cada campo
-    static int[] zabalerak = {2, 10, 9};
-
     static void main(String[] args) {
-        //Textu plano batean idatzi, "rw" irakurri/idatzi
-        try (RandomAccessFile raf = new RandomAccessFile("/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a07_RandomAccessFile/textua.txt","rw")) {
+        String fitxategiaTextua = "/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a07_RandomAccessFile/textua.txt";
+        String fitxategiaLangile = "/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a07_RandomAccessFile/textuaBi.dat";
 
-            //Punteroaren hasierako posizioa
-            System.out.println("\nPunteroaren hasierako posizioa:" + raf.getFilePointer());
+        // 1️⃣ Idatzi testua
+        idatziTestua(fitxategiaTextua);
 
-            // Punteroa mugitu azkeneko posiziora, posizio bakoitza letra, zenbaki, espazio dira...
+        // 2️⃣ Irakurri testua
+        irakurriTestua(fitxategiaTextua);
+
+        // 3️⃣ Bilatu "moduz" testuan
+        bilatuHitzaTestuan(fitxategiaTextua, "tyy");
+
+        // 4️⃣ Idatzi langilea fitxategi binario batean
+        idatziLangilea(fitxategiaLangile);
+
+        // 5️⃣ Irakurri langilea fitxategi binarioatik
+        irakurriLangilea(fitxategiaLangile);
+    }
+
+    /** Idatzi testua fitxategi plano batean */
+    public static void idatziTestua(String fitxategia) {
+        try (RandomAccessFile raf = new RandomAccessFile(fitxategia, "rw")) {
+            // Mugitu punteroa bukaerara
             raf.seek(raf.length());
-            System.out.println("'seek' ondorengo posizioa: " + raf.getFilePointer());
-
-            // 10 byte idatzi
             raf.writeBytes(" Zer moduz zare?");
-            System.out.println("Idatzi ondorengo posizioa: " + raf.getFilePointer());
-
-            // Mover puntero al inicio para leer
-            raf.seek(0);
-
-            System.out.println("------ Fitxategiko testua ------");
-            String line;
-            while ((line = raf.readLine()) != null) {
-                System.out.println(line);
-            }
-
-            // Posiciona el puntero justo donde empieza "moduz"
-            raf.seek(4);
-
-            byte[] buffer = new byte[6]; // "moduz" tiene 6 letras
-            raf.readFully(buffer);       // lee exactamente 6 bytes
-            String moduz = new String(buffer);
-
-            System.out.println("Palabra leída: " + moduz);
-
+            System.out.println("✅ Testua idatzi da: " + raf.getFilePointer());
         } catch (IOException e) {
-            System.out.println("❌ Errorea fitxategiak bateratzean: " + e.getMessage());
+            System.out.println("❌ Errorea idaztean: " + e.getMessage());
         }
+    }
 
-        // Busca un registro por nombre
-        bilatuErregistroaIzenarekiko("moduz");
+    /** Irakurri testua fitxategi plano batetik */
+    public static void irakurriTestua(String fitxategia) {
+        try (RandomAccessFile raf = new RandomAccessFile(fitxategia, "r")) {
+            raf.seek(0);
+            System.out.println("------ Fitxategiko testua ------");
+            String linea;
+            while ((linea = raf.readLine()) != null) {
+                System.out.println(linea);
+            }
+        } catch (IOException e) {
+            System.out.println("❌ Errorea irakurtzean: " + e.getMessage());
+        }
+    }
 
-        try (RandomAccessFile raf = new RandomAccessFile("/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a07_RandomAccessFile/textuaBi.dat","rw")) {
-            //Langile baten datuak idatzi
+    /** Bilatu hitz zehatz bat fitxategi plano batean */
+    public static void bilatuHitzaTestuan(String fitxategia, String hitza) {
+        try (RandomAccessFile raf = new RandomAccessFile(fitxategia, "r")) {
+            long puntero = 0;
+            String linea;
+            while ((linea = raf.readLine()) != null) {
+                int index = linea.indexOf(hitza);
+                if (index != -1) {
+                    long posicion = puntero + index;
+                    System.out.println("✅ '" + hitza + "' aurkitu da posizioan: " + posicion);
+                    break;
+                } else {
+                    System.out.println("❌ EZ da '" + hitza + "' aurkitu");
+                }
+                puntero = raf.getFilePointer();
+            }
+        } catch (IOException e) {
+            System.out.println("❌ Errorea bilatzean: " + e.getMessage());
+        }
+    }
+
+    /** Idatzi langilea fitxategi binario batean */
+    public static void idatziLangilea(String fitxategia) {
+        try (RandomAccessFile raf = new RandomAccessFile(fitxategia, "rw")) {
             int id = 101;
             String izena = "Patxi Lasa";
             String izena_2 = "Aritz Ibañez";
             double soldata = 1500.2;
 
-            raf.writeInt(id); //4 byte idatzi
-            raf.writeUTF(izena); //String-a formatu berezi batean idatzi
+            raf.writeInt(id);
+            raf.writeUTF(izena);
             raf.writeUTF(izena_2);
-            raf.writeDouble(soldata); //7 bytes idatzi
+            raf.writeDouble(soldata);
 
-            //Orain langilearen datuak irakurri
-            //Lehenengo, punteroa erregistroaren hasierara mugitu
-            raf.seek(0);
-
-            int irakurritakoId = raf.readInt();
-            String irakurritakoIzena = raf.readUTF();
-            String irakurritakoIzena2 = raf.readUTF();
-            double irakurritakoSoldata = raf.readDouble();
-
-            System.out.println("\nLangilearen datuak: ");
-            System.out.println("ID: " + irakurritakoId);
-            System.out.println("Izena: " + irakurritakoIzena);
-            System.out.println("Izena 2: " + irakurritakoIzena2);
-            System.out.println("Soldata: " + irakurritakoSoldata);
-
+            System.out.println("✅ Langilea idatzi da fitxategian.");
         } catch (IOException e) {
-            System.out.println("❌ Errorea fitxategiak bateratzean: " + e.getMessage());
+            System.out.println("❌ Errorea langilea idaztean: " + e.getMessage());
         }
     }
 
-    // Método que busca un registro por nombre
-    public static void bilatuErregistroaIzenarekiko(String bilaketaIzena) {
-        try (RandomAccessFile raf = new RandomAccessFile("/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a07_RandomAccessFile/textuaBi.dat", "rw")) {
+    /** Irakurri langilea fitxategi binario batetik */
+    public static void irakurriLangilea(String fitxategia) {
+        try (RandomAccessFile raf = new RandomAccessFile(fitxategia, "r")) {
+            raf.seek(0);
+            int id = raf.readInt();
+            String izena1 = raf.readUTF();
+            String izena2 = raf.readUTF();
+            double soldata = raf.readDouble();
 
-            // Bandera para controlar si se encontró el registro
-            boolean aurkitua = false;
-            // Contador del número de registro actual
-            int erregZenbakia = 1;
-            // Array para almacenar el nombre leído
-            byte[] irakurritakoIzena = new byte[zabalerak[1]];
-            // Bucle que recorre todos los registros hasta encontrar coincidencia
-            // o hasta llegar al final del archivo
-            while (!aurkitua && (erregZenbakia <= raf.length() / longReg)) {
-                // Posiciona el puntero en el campo "nombre" del registro actual
-                raf.seek((long) (erregZenbakia - 1) * longReg + zabalerak[0]);
-
-                // Lee el nombre del registro actual
-                raf.read(irakurritakoIzena);
-
-                // Compara el nombre buscado con el nombre leído (ignorando mayúsculas y espacios)
-                if (bilaketaIzena.toLowerCase().equals(new String(irakurritakoIzena, StandardCharsets.UTF_8).trim().toLowerCase())) {
-                    aurkitua = true; // Marca como encontrado
-                    System.out.println(bilaketaIzena + " izena, " + erregZenbakia + " erregistroan dago");
-                }
-
-                // Pasa al siguiente registro
-                erregZenbakia++;
-            }
-
-            // Si no se encontró, muestra mensaje
-            if (!aurkitua) {
-                System.out.println("Ez da izen hori fitxategian aurkitu");
-            }
-
-        } catch (Exception e) {
-            // Muestra errores en el stream de error estándar
-            System.err.println(e.getMessage());
+            System.out.println("\n------ Langilearen datuak ------");
+            System.out.println("ID: " + id);
+            System.out.println("Izena 1: " + izena1);
+            System.out.println("Izena 2: " + izena2);
+            System.out.println("Soldata: " + soldata);
+        } catch (IOException e) {
+            System.out.println("❌ Errorea langilea irakurtzean: " + e.getMessage());
         }
     }
 }
