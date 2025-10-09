@@ -1,9 +1,9 @@
-package ErrepasoAriketak.a05;
+package ErrepasoAriketak.a05_Jokalariak;
 
-import ErrepasoAriketak.a05.model.Atezaina;
-import ErrepasoAriketak.a05.model.Aurrelaria;
-import ErrepasoAriketak.a05.model.Defentsa;
-import ErrepasoAriketak.a05.model.Jokalaria;
+import ErrepasoAriketak.a05_Jokalariak.model.Atezaina;
+import ErrepasoAriketak.a05_Jokalariak.model.Aurrelaria;
+import ErrepasoAriketak.a05_Jokalariak.model.Defentsa;
+import ErrepasoAriketak.a05_Jokalariak.model.Jokalaria;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -69,7 +69,7 @@ public class JokatuApp {
     }
 
     public static void idatziBitarrean(ArrayList<Jokalaria> jokalariZerrenda) throws IOException {
-        ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Datu_Atzipen_Ariketak_2025_2026\\Errepaso\\src\\ErrepasoAriketak\\a05\\Jokalariak.dat"));
+        ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/Jokalariak.dat"));
         output.writeObject(jokalariZerrenda);
         output.flush();
         output.close();
@@ -78,7 +78,7 @@ public class JokatuApp {
     }
 
     public static void irakurriBitarrean() throws IOException, ClassNotFoundException {
-        ObjectInputStream input = new ObjectInputStream(new FileInputStream("C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Datu_Atzipen_Ariketak_2025_2026\\Errepaso\\src\\ErrepasoAriketak\\a05\\Jokalariak.dat"));
+        ObjectInputStream input = new ObjectInputStream(new FileInputStream("/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/Jokalariak.dat"));
 
         ArrayList<Jokalaria> jokalariZerrenda = (ArrayList<Jokalaria>) input.readObject();
         input.close();
@@ -171,7 +171,7 @@ public class JokatuApp {
     }
 
     public static void kontatuPosizioBakoitzekoJokalariak() throws IOException, ClassNotFoundException {
-        ObjectInputStream input = new ObjectInputStream(new FileInputStream("C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Datu_Atzipen_Ariketak_2025_2026\\Errepaso\\src\\ErrepasoAriketak\\a05\\Jokalariak.dat"));
+        ObjectInputStream input = new ObjectInputStream(new FileInputStream("/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/Jokalariak.dat"));
 
         ArrayList<Jokalaria> jokalariZerrenda = (ArrayList<Jokalaria>) input.readObject();
         input.close();

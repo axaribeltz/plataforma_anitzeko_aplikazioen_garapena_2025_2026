@@ -1,4 +1,4 @@
-package ErrepasoAriketak.a05.model;
+package ErrepasoAriketak.a05_JokalariakRefactor.model;
 
 import java.io.Serializable;
 

@@ -1,6 +1,6 @@
-package ErrepasoAriketak.a05.model;
+package ErrepasoAriketak.a05_JokalariakRefactor.model;
 
-public class Atezaina extends Jokalaria{
+public class Atezaina extends Jokalaria {
 
     public Atezaina(String izena, double altuera, int zenbakia) {
         super(izena, altuera, zenbakia);
@@ -8,7 +8,7 @@ public class Atezaina extends Jokalaria{
 
     @Override
     public void jokatu() {
-        System.out.println("Baloia gelditu...");
+        System.out.println(getIzena() + " baloia gelditu...");
     }
 
 }

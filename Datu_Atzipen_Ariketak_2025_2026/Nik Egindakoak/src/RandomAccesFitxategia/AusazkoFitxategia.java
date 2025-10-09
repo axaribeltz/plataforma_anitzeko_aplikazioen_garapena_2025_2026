@@ -28,6 +28,7 @@ public class AusazkoFitxategia {
             //Langile baten datuak idatzi
             int id = 101;
             String izena = "Patxi Lasa";
+            String izena_2 = "Aritz Ibañez";
             double soldata = 1500.2;
 
             raf.writeInt(id); //4 byte idatzi
