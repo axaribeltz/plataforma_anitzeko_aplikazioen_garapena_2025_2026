@@ -15,7 +15,11 @@ public class ErrepasoAriketa_7 {
         irakurriTestua(fitxategiaTextua);
 
         // 3️⃣ Bilatu "moduz" testuan
+<<<<<<< HEAD
         bilatuHitzaTestuan(fitxategiaTextua, "tyy");
+=======
+        bilatuHitzaTestuan(fitxategiaTextua, "moduz");
+>>>>>>> 91523db ([UPDATE])
 
         // 4️⃣ Idatzi langilea fitxategi binario batean
         idatziLangilea(fitxategiaLangile);

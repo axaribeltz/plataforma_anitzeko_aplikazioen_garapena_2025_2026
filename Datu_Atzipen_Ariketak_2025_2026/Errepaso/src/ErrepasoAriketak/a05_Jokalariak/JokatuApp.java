@@ -69,7 +69,11 @@ public class JokatuApp {
     }
 
     public static void idatziBitarrean(ArrayList<Jokalaria> jokalariZerrenda) throws IOException {
+<<<<<<< HEAD
         ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/Jokalariak.dat"));
+=======
+        ObjectOutputStream output = new ObjectOutputStream(new FileOutputStream("C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Datu_Atzipen_Ariketak_2025_2026\\Errepaso\\src\\ErrepasoAriketak\\a05_Jokalariak\\Jokalariak.dat"));
+>>>>>>> 91523db ([UPDATE])
         output.writeObject(jokalariZerrenda);
         output.flush();
         output.close();
@@ -78,7 +82,11 @@ public class JokatuApp {
     }
 
     public static void irakurriBitarrean() throws IOException, ClassNotFoundException {
+<<<<<<< HEAD
         ObjectInputStream input = new ObjectInputStream(new FileInputStream("/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/Jokalariak.dat"));
+=======
+        ObjectInputStream input = new ObjectInputStream(new FileInputStream("C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Datu_Atzipen_Ariketak_2025_2026\\Errepaso\\src\\ErrepasoAriketak\\a05_Jokalariak\\Jokalariak.dat"));
+>>>>>>> 91523db ([UPDATE])
 
         ArrayList<Jokalaria> jokalariZerrenda = (ArrayList<Jokalaria>) input.readObject();
         input.close();
@@ -171,7 +179,11 @@ public class JokatuApp {
     }
 
     public static void kontatuPosizioBakoitzekoJokalariak() throws IOException, ClassNotFoundException {
+<<<<<<< HEAD
         ObjectInputStream input = new ObjectInputStream(new FileInputStream("/home/axari/Documentos/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/Jokalariak.dat"));
+=======
+        ObjectInputStream input = new ObjectInputStream(new FileInputStream("C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Datu_Atzipen_Ariketak_2025_2026\\Errepaso\\src\\ErrepasoAriketak\\a05_Jokalariak\\Jokalariak.dat"));
+>>>>>>> 91523db ([UPDATE])
 
         ArrayList<Jokalaria> jokalariZerrenda = (ArrayList<Jokalaria>) input.readObject();
         input.close();

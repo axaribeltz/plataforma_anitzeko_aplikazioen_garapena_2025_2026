@@ -4,6 +4,7 @@
  */
 package com.mycompany.tablapertsonakmodifikatu;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.collections.ObservableList;
@@ -60,7 +61,7 @@ public class SecondaryController implements Initializable {
 
     public void setPertsona(Pertsona pertsona) {
         this.pertsona = pertsona;
-    }    
+    }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
@@ -85,46 +86,69 @@ public class SecondaryController implements Initializable {
     }
 
     @FXML
-    private void switchToPrimary(ActionEvent event) {
-        try {
-            String izena = this.txtIzena.getText();
-            String abizena = this.txtAbizena.getText();
-            int urteak = Integer.parseInt(this.txtAdina.getText());
-            Pertsona p = new Pertsona(izena, abizena, urteak);
+    private void switchToPrimary(ActionEvent event) throws IOException {
+        String izena = txtIzena.getText().trim();
+        String abizena = txtAbizena.getText().trim();
+        String adinaStr = txtAdina.getText().trim();
 
-            if(!pertsonaList.contains(p)) {
-                this.pertsona.setIzena(izena);
-                this.pertsona.setAbizena(abizena);
-                this.pertsona.setAdina(urteak);
-                info("ALDAKETA EGINDA");
-            } else {
-                setPertsona(p);
-            }             
-                
-            if (!errepikatutaDago(pertsonaList, p)) {
-                System.out.println("Ez da errepikatua");
-                this.pertsonaList.add(p);
-                setRespuestaList(pertsonaList);
-                Stage stage = (Stage) this.btnGorde.getScene().getWindow();
-                stage.close();
-            } else {
-                error("PERTSONA EXISTITZEN DA");
+        if (izena.isEmpty() || abizena.isEmpty() || adinaStr.isEmpty()) {
+            error("EREMU GUZTIAK BETE BEHAR DIRA.");
+            return;
+        }
+
+        int adina;
+        try {
+            adina = Integer.parseInt(adinaStr);
+            if (adina < 0 || adina > 150) {
+                error("ADINAK 0 ETA 150 ARTEKOA IZAN BEHAR DU.");
+                return;
             }
         } catch (NumberFormatException e) {
-            error("FORMA DESEGOKIAN IDATZI DUZU");
+            error("ADINAK BALIOZKO ZENBAKIA IZAN BEHAR DU.");
+            return;
         }
+
+        Pertsona pertsonaBerria = new Pertsona(izena, abizena, adina);
+
+        // Si estamos modificando
+        if (this.pertsona != null) {
+            if (errepikatutaDago(pertsonaList, pertsonaBerria, this.pertsona)) {
+                error("PERTSONA HORI BADAGO");
+                return;
+            }
+
+            // Actualizar los datos de la persona existente
+            this.pertsona.setIzena(izena);
+            this.pertsona.setAbizena(abizena);
+            this.pertsona.setAdina(adina);
+        } else {
+            // Agregando una nueva persona
+            if (errepikatutaDago(pertsonaList, pertsonaBerria, null)) {
+                error("PERTSONA HORI BADAGO");
+                return;
+            }
+            pertsonaList.add(pertsonaBerria);
+        }
+
+        setRespuestaList(pertsonaList);
+
+        Stage stage = (Stage) btnGorde.getScene().getWindow();
+        stage.close();
     }
 
-    private boolean errepikatutaDago(ObservableList<Pertsona> pertsonaList, Pertsona pertsona) {
-        boolean respuesta = false;
-
-        for (Pertsona p : pertsonaList) {
-            if (p.getIzena().equals(pertsona.getIzena()) && p.getAbizena().equals(pertsona.getAbizena()) && p.getAdina() == pertsona.getAdina()) {
-                respuesta = true;
-                break;
+    private boolean errepikatutaDago(ObservableList<Pertsona> lista, Pertsona berria, Pertsona zaharra) {
+        for (Pertsona p : lista) {
+            // Saltamos la persona que estamos modificando
+            if (zaharra != null && p == zaharra) {
+                continue;
+            }
+            if (p.getIzena().equalsIgnoreCase(berria.getIzena())
+                    && p.getAbizena().equalsIgnoreCase(berria.getAbizena())
+                    && p.getAdina() == berria.getAdina()) {
+                return true;
             }
         }
-        return respuesta;
+        return false;
     }
 
     private void error(String errorMsg) {
@@ -134,7 +158,7 @@ public class SecondaryController implements Initializable {
         alert.setContentText(errorMsg);
         alert.showAndWait();
     }
-    
+
     private void info(String ingoMsg) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setHeaderText(null);

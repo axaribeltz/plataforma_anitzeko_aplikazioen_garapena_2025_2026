@@ -1,0 +1,39 @@
+[
+	{
+"nombre":"Castor",
+"apellidos":"Reale",
+"edad":19,
+"aficiones":["Fishing"]
+},
+{
+	"nombre":"Amelia",
+	"apellidos":"Edgar",
+	"edad":29,
+	"aficiones":["Fly","Travel"]
+	},
+	{
+		"nombre":"Simon",
+		"apellidos":"Bolivar",
+		"edad":39,
+		"aficiones":["Politics","Fly"]
+		},
+		{
+			"nombre":"Regina",
+			"apellidos":"Xart",
+			"edad":59,
+			"aficiones":["Writting","Running"]
+			},
+			{
+				"nombre":"Igor",
+				"apellidos":"Strogoff",
+				"edad":39,
+				"aficiones":["Sky","Horses"]
+				},
+				{
+					"nombre":"Ane",
+					"apellidos":"Ansola",
+					"edad":29,
+					"aficiones":["Dance", "Astronomy"]
+					}
+
+ ]
