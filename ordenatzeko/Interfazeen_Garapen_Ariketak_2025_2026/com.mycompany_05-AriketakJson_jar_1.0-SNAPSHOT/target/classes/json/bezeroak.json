@@ -1,0 +1,39 @@
+[
+    {
+        "izena": "Castor",
+        "abizena": "Reale",
+        "adina": 19,
+        "afizioa": ["Fishing"]
+    },
+    {
+        "izena": "Amelia",
+        "abizena": "Edgar",
+        "adina": 29,
+        "afizioa": ["Fly", "Travel"]
+    },
+    {
+        "izena": "Simon",
+        "abizena": "Bolivar",
+        "adina": 39,
+        "afizioa": ["Politics", "Fly"]
+    },
+    {
+        "izena": "Regina",
+        "abizena": "Xart",
+        "adina": 59,
+        "afizioa": ["Writting", "Running"]
+    },
+    {
+        "izena": "Igor",
+        "abizena": "Strogoff",
+        "adina": 39,
+        "afizioa": ["Sky", "Horses"]
+    },
+    {
+        "izena": "Ane",
+        "abizena": "Ansola",
+        "edad": 29,
+        "afizioa": ["Dance", "Astronomy"]
+    }
+
+]

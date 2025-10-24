@@ -1,0 +1,14 @@
+com\mycompany\css\App.class
+com\mycompany\css\ProfileScreenController.class
+com\mycompany\css\PersonDetailsController.class
+com\mycompany\css\PasswordScreenController.class
+com\mycompany\css\MirrorsAplicationController.class
+com\mycompany\css\LoginScreenController.class
+com\mycompany\css\TaulaPertsonakController.class
+com\mycompany\css\MirrorsAplication2Controller.class
+com\mycompany\css\GehituPertsonaController.class
+modelo\Pertsona.class
+module-info.class
+com\mycompany\css\MenuaController.class
+com\mycompany\css\User.class
+com\mycompany\css\TaulaPertsonak_2Controller.class
