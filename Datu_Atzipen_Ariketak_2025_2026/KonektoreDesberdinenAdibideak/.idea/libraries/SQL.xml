@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SQL">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SQL/SQL.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
