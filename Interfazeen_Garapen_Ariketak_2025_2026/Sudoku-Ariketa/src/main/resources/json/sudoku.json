@@ -1,0 +1,809 @@
+[{
+        "sudoku": [
+            {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "7",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "6",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "4",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "1",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "1",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "7",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "9",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "9",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "1",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "5",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "3",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "5",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "2",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "3",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }
+        ]
+    },
+    {
+        "sudoku": [
+
+            {
+                "balorea": "5",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "7",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            },
+
+            {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            },
+
+            {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "4",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            },
+
+            {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "IKUSI"
+            },
+
+            {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            },
+
+            {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "5",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "4",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            },
+
+            {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "8",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            },
+
+            {
+                "balorea": "9",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "3",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            },
+
+            {
+                "balorea": "6",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "4",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "IKUSI"
+            }
+
+
+        ]
+    },
+    {
+        "sudoku": [
+            {
+                "balorea": "1",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            },
+
+            {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "7",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "1",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "8",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "7",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "1",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "6",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "6",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "3",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "9",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "4",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "7",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            },
+            {
+                "balorea": "2",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "4",
+                "egoera": "IKUSI"
+            }, {
+                "balorea": "7",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "9",
+                "egoera": "IKUSI"
+            },
+            {
+                "balorea": "8",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "1",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "5",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "3",
+                "egoera": "ESKUTUAN"
+            }, {
+                "balorea": "6",
+                "egoera": "ESKUTUAN"
+            }
+
+        ]
+    }  
+]
