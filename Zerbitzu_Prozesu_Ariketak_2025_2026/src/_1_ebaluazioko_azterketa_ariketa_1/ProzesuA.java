@@ -9,7 +9,6 @@ public class ProzesuA {
 		try {
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 			OutputStreamWriter outputStreamWriter = new OutputStreamWriter(System.out);
-
 	        String line;
 	        while ((line = bufferedReader.readLine()) != null) {
 	            try {

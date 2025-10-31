@@ -13,7 +13,7 @@ public class ProzesuNagusia {
 
     public static void main(String[] args) {
         try {
-        	 // A prozesua abiarazi
+        	// A prozesua abiarazi
             ProcessBuilder processBuilderA = new ProcessBuilder("java", "-cp", "bin", "_1_ebaluazioko_azterketa_ariketa_1.ProzesuA");
             Process processA = processBuilderA.start();
             System.out.println("NAGUSIA: A Prozesua abiarazi da.");
