@@ -11,6 +11,8 @@ import javafx.scene.control.TableView;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.List;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -86,12 +88,15 @@ public class PrimaryController implements Initializable {
         labelTitle.setText("BEZEROAK");
         bezeroakKargatu();
     }
-    
+
     private void bezeroakKargatu() {
-        try {
-            String bezeroakPath = "C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Interfazeen_Garapen_Ariketak_2025_2026\\com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT\\src\\main\\resources\\json\\bezeroak.json";
+        try (InputStream bezeroakJson = getClass().getResourceAsStream("/json/bezeroak.json")) {
+            if (bezeroakJson == null) {
+                System.err.println("Ez da aurkitu bezeroak.json");
+                return;
+            }
             java.lang.reflect.Type BezeroListaTipoa = new TypeToken<List<Bezeroa>>() {}.getType();
-            List<Bezeroa> bezeroak = gson.fromJson(new FileReader(bezeroakPath), BezeroListaTipoa);
+            List<Bezeroa> bezeroak = gson.fromJson(new InputStreamReader(bezeroakJson), BezeroListaTipoa);
 
             ObservableList<Bezeroa> obList = FXCollections.observableList(bezeroak);
 
@@ -109,10 +114,14 @@ public class PrimaryController implements Initializable {
     }
 
     private void langileakKargatu() {
-        try {
-            String langileakPath = "C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Interfazeen_Garapen_Ariketak_2025_2026\\com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT\\src\\main\\resources\\json\\langileak.json";
-            java.lang.reflect.Type LangileaListaTipoa = new TypeToken<List<Langilea>>() {}.getType();
-            List<Langilea> langileak = gson.fromJson(new FileReader(langileakPath), LangileaListaTipoa);
+        try (InputStream langileakJson = getClass().getResourceAsStream("/json/langileak.json")) {
+            if (langileakJson == null) {
+                System.err.println("Ez da aurkitu langileak.json");
+                return;
+            }
+            java.lang.reflect.Type LangileaListaTipoa = new TypeToken<List<Langilea>>() {
+            }.getType();
+            List<Langilea> langileak = gson.fromJson(new InputStreamReader(langileakJson), LangileaListaTipoa);
 
             ObservableList<Langilea> obList = FXCollections.observableList(langileak);
 

@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.mycompany</groupId>
-    <artifactId>06-JsonAriketak</artifactId>
+    <artifactId>Azterketa-Proba</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,8 +23,8 @@
         <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
-            <version>2.13.1</version>
-            <type>jar</type>
+            <version>2.10.1</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>
@@ -42,7 +42,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.4</version>
                 <configuration>
-                    <mainClass>com.mycompany.jsonariketak.App</mainClass>
+                    <mainClass>com.mycompany.azterketa.proba.App</mainClass>
                 </configuration>
                 <executions>
                     <execution>

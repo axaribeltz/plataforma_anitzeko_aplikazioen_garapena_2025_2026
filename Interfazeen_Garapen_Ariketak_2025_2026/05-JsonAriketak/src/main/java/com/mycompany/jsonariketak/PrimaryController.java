@@ -3,6 +3,8 @@ package com.mycompany.jsonariketak;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -40,18 +42,20 @@ public class PrimaryController implements Initializable {
     }
 
     private void kargatuPertsonak() {
-        try {
-            String filePath = "C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Interfazeen_Garapen_Ariketak_2025_2026\\05-JsonAriketak\\src\\main\\resources\\json\\pertsonak.json"; 
-            Gson gson = new Gson();
+        try (InputStream pertsonakJson = getClass().getResourceAsStream("/json/pertsonak.json")) {
+            if (pertsonakJson == null) {
+                System.err.println("Ez da aurkitu pertsonak.json");
+                return;
+            }
 
             java.lang.reflect.Type pertsonaListaTipoa = new TypeToken<List<Pertsona>>() {}.getType();
-            pertsonak = gson.fromJson(new FileReader(filePath), pertsonaListaTipoa);
+            pertsonak = new Gson().fromJson(new InputStreamReader(pertsonakJson), pertsonaListaTipoa);
 
             // Gogoratu garbitzeaz
             menuButton.getItems().clear();
             for (Pertsona b : pertsonak) {
                 MenuItem item = new MenuItem(b.getIzena() + " " + b.getAbizena());
-                item.setOnAction(e -> erakutsiPertsonarenDatuak(b)); 
+                item.setOnAction(e -> erakutsiPertsonarenDatuak(b));
                 menuButton.getItems().add(item);
             }
         } catch (Exception e) {
@@ -63,7 +67,7 @@ public class PrimaryController implements Initializable {
         txtIzena.setText(b.getIzena());
         txtAbizena.setText(b.getAbizena());
         txtAdina.setText(String.valueOf(b.getAdina()));
-        txtAreaAfizioak.setText(String.join(", ", b.getAfizioa()));
+        txtAreaAfizioak.setText(String.join("\n", b.getAfizioa()));
 
         // Aldatu textua segun eta ze izenetan klikatu
         menuButton.setText(b.getIzena());

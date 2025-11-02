@@ -6,6 +6,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.URL;
 import java.util.List;
 import java.util.ResourceBundle;
@@ -37,7 +39,7 @@ public class PrimaryController implements Initializable {
     @FXML
     private TableColumn<Pertsona, String> colAbizena;
     @FXML
-    private TableColumn<Pertsona, String> colUrteak;
+    private TableColumn<Pertsona, Integer> colAdina;
     @FXML
     private Button btnAddPerson;
     @FXML
@@ -49,7 +51,8 @@ public class PrimaryController implements Initializable {
     @FXML
     private Button btnGordeKarpetan;
 
-    private ObservableList<Pertsona> pertsonak = FXCollections.observableArrayList(); // Inicializar la lista
+    private final Gson gson = new Gson();
+    private ObservableList<Pertsona> pertsonakList;
     String aukeratutakoAukera;
 
     @Override
@@ -58,33 +61,27 @@ public class PrimaryController implements Initializable {
     }
 
     private void loadPertsons() {
-        try {
-            String filePath = "C:\\Users\\2AM3-4\\Documents\\plataforma_anitzeko_aplikazioen_garapena_2025_2026\\Interfazeen_Garapen_Ariketak_2025_2026\\06-JsonAriketak\\src\\main\\resources\\json\\pertsonak.json";
-            Gson gson = new Gson();
-
-            java.lang.reflect.Type pertsonaListaTipoa = new TypeToken<List<Pertsona>>() {
+        try (InputStream pertsonakJson = getClass().getResourceAsStream("/json/pertsonak.json")) {
+            if (pertsonakJson == null) {
+                System.err.println("Ez da aurkitu pertsonak.json");
+                return;
+            }
+            java.lang.reflect.Type pertsonakListaTipoa = new TypeToken<List<Pertsona>>() {
             }.getType();
-            List<Pertsona> pertsonaList = gson.fromJson(new FileReader(filePath), pertsonaListaTipoa); // Primero obtenemos la lista normal
-            pertsonak = FXCollections.observableArrayList(pertsonaList); // Luego la convertimos a ObservableList
+            List<Pertsona> pertsonak = gson.fromJson(new InputStreamReader(pertsonakJson), pertsonakListaTipoa);
+
+            pertsonakList = FXCollections.observableList(pertsonak);
 
             colIzena.setCellValueFactory(new PropertyValueFactory<>("izena"));
             colAbizena.setCellValueFactory(new PropertyValueFactory<>("abizena"));
-            colUrteak.setCellValueFactory(new PropertyValueFactory<>("adina"));
-            tblPertsonak.setItems(pertsonak); 
+            colAdina.setCellValueFactory(new PropertyValueFactory<>("adina"));
 
-            for (Pertsona b : pertsonak) {
-                MenuItem item = new MenuItem(b.getIzena() + " " + b.getAbizena());
-                item.setOnAction(e -> showPetsonData(b));
-            }
+            tblPertsonak.setItems(pertsonakList);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
 
-    private void showPetsonData(Pertsona b) {
-        colIzena.setText(b.getIzena());
-        colAbizena.setText(b.getAbizena());
-        colUrteak.setText(String.valueOf(b.getAdina()));
     }
 
     @FXML
@@ -104,14 +101,14 @@ public class PrimaryController implements Initializable {
 
     @FXML
     private void SwitchToDeletePerson(ActionEvent event) throws IOException {
-        Pertsona p = this.tblPertsonak.getSelectionModel().getSelectedItem();
+        Pertsona aukeratua = tblPertsonak.getSelectionModel().getSelectedItem();
 
-        if (p != null) {
-            this.pertsonak.remove(p);
-            this.tblPertsonak.refresh();
-        } else {
-            error("AUKERATU PERTSONA BAT");
+        if (aukeratua == null) {
+            error("Ez dago pertsonarik hautatuta.");
+            return;
         }
+        pertsonakList.remove(aukeratua); // elimina de la lista observable
+        tblPertsonak.refresh(); // refresca la tabla
     }
 
     private void changeWindow(Pertsona p) throws IOException {
@@ -120,9 +117,9 @@ public class PrimaryController implements Initializable {
         SecondaryController controlador = loader.getController();
 
         if (aukeratutakoAukera.equals("new")) {
-            controlador.initAttributes(pertsonak);
+            controlador.initAttributes(pertsonakList);
         } else if (aukeratutakoAukera.equals("update") && p != null) {
-            controlador.initAttributes(pertsonak, p);
+            controlador.initAttributes(pertsonakList, p);
         }
 
         Scene scene = new Scene(root);
@@ -134,8 +131,8 @@ public class PrimaryController implements Initializable {
 
         // CORRECCIÓN PRINCIPAL: Actualizar la tabla después de cerrar la ventana
         if (controlador.getRespuestaList() != null) {
-            pertsonak.clear();
-            pertsonak.addAll(controlador.getRespuestaList());
+            pertsonakList.clear();
+            pertsonakList.addAll(controlador.getRespuestaList());
             tblPertsonak.refresh();
         }
     }
@@ -150,14 +147,62 @@ public class PrimaryController implements Initializable {
 
     @FXML
     private void btnIrekiKarpeta(ActionEvent event) {
-        
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Aukeratu JSON fitxategia");
+        fileChooser.getExtensionFilters().add(
+                new FileChooser.ExtensionFilter("JSON fitxategiak", "*.json")
+        );
+
+        File file = fileChooser.showOpenDialog(((Stage) btnIrekiKarpeta.getScene().getWindow()));
+
+        if (file != null) {
+            try (FileReader reader = new FileReader(file)) {
+                java.lang.reflect.Type tipo = new TypeToken<List<Pertsona>>() {
+                }.getType();
+                List<Pertsona> listaPertsonak = gson.fromJson(reader, tipo);
+
+                pertsonakList = FXCollections.observableList(listaPertsonak);
+                tblPertsonak.setItems(pertsonakList);
+                tblPertsonak.refresh();
+
+                info("Fitxategia ondo kargatu da: " + file.getName());
+            } catch (Exception e) {
+                error("Errorea fitxategia irakurtzean: " + e.getMessage());
+            }
+        } else {
+            info("Ez da fitxategirik aukeratu.");
+        }
     }
 
     @FXML
     private void btnGordeKarpetan(ActionEvent event) {
-       
+        if (pertsonakList == null || pertsonakList.isEmpty()) {
+            error("Ez dago daturik gordetzeko.");
+            return;
+        }
+
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setTitle("Gorde JSON fitxategia");
+        fileChooser.getExtensionFilters().add(
+                new FileChooser.ExtensionFilter("JSON fitxategiak", "*.json")
+        );
+        fileChooser.setInitialFileName("pertsonak.json");
+
+        File selectedFile = fileChooser.showSaveDialog(((Stage) btnGordeKarpetan.getScene().getWindow()));
+
+        if (selectedFile != null) {
+            try (FileWriter fw = new FileWriter(selectedFile, false)) {
+                String jsonString = gson.toJson(pertsonakList);
+                fw.write(jsonString);
+                info("Fitxategia ondo gorde da: " + selectedFile.getAbsolutePath());
+            } catch (IOException e) {
+                error("Errorea fitxategia gordetzean: " + e.getMessage());
+            }
+        } else {
+            info("Ez da karpetarik aukeratu.");
+        }
     }
-    
+
     private void info(String infoMsg) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setHeaderText(null);

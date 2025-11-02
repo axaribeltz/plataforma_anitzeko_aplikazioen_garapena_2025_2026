@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 1,
+    "IZENA": "Aritz",
+    "ABIZENA": "Etxeberria",
+    "ADINA": 24,
+    "HIRIA": "Bilbo",
+    "PUNTUAK": 1200,
+    "IRABAZITA": 15,
+    "GALDUTA": 5
+  },
+  {
+    "ID": 2,
+    "IZENA": "Maialen",
+    "ABIZENA": "Lasa",
+    "ADINA": 28,
+    "HIRIA": "Donostia",
+    "PUNTUAK": 1350,
+    "IRABAZITA": 18,
+    "GALDUTA": 7
+  },
+  {
+    "ID": 3,
+    "IZENA": "Iker",
+    "ABIZENA": "Agirre",
+    "ADINA": 31,
+    "HIRIA": "Gasteiz",
+    "PUNTUAK": 980,
+    "IRABAZITA": 9,
+    "GALDUTA": 11
+  },
+  {
+    "ID": 4,
+    "IZENA": "Nahia",
+    "ABIZENA": "Urkizu",
+    "ADINA": 22,
+    "HIRIA": "Hondarribia",
+    "PUNTUAK": 1500,
+    "IRABAZITA": 21,
+    "GALDUTA": 3
+  },
+  {
+    "ID": 5,
+    "IZENA": "Unai",
+    "ABIZENA": "Olabarria",
+    "ADINA": 26,
+    "HIRIA": "Tolosa",
+    "PUNTUAK": 1100,
+    "IRABAZITA": 13,
+    "GALDUTA": 9
+  }
+]

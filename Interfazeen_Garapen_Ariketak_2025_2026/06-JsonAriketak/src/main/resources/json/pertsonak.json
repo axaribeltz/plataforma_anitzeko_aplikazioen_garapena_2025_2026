@@ -2,37 +2,21 @@
     {
         "izena": "Fernando",
         "abizena": "Ureña Gomez",
-        "adina": 29,
-        "afizioa": [
-            "Cocinar",
-            "Deporte"
-        ]
+        "adina": 29
     },
     {
         "izena": "Clara",
         "abizena": "Ureña Gomez",
-        "adina": 27,
-        "afizioa": [
-            "Programar",
-            "Deporte"
-        ]
+        "adina": 27
     },
     {
         "izena": "Iker",
         "abizena": "ALdaiz Gomez",
-        "adina": 190,
-        "afizioa": [
-            "Gaming",
-            "Programar"
-        ]
+        "adina": 190
     },
     {
         "izena": "Itziar",
         "abizena": "Artola Gambiz",
-        "adina": 22,
-        "afizioa": [
-            "Comics",
-            "Gaming"
-        ]
+        "adina": 22
     }
 ]

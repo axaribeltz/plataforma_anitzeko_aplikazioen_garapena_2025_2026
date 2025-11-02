@@ -1,0 +1,34 @@
+/* Clase base para todas las celdas del Sudoku */
+.text-field-sudoku {
+    -fx-font-size: 12px;
+    -fx-alignment: center;
+    -fx-background-color: white;
+    -fx-border-color: gray;
+    -fx-border-width: 1px;
+}
+
+/* Celda seleccionada por el jugador */
+.text-field-sudoku.selected {
+    -fx-background-color: #ffff99; /* amarillo claro */
+}
+
+/* Celda fija del puzzle (no editable) */
+.text-field-sudoku.fixed {
+    -fx-background-color: #e0e0e0;
+    -fx-font-weight: bold;
+}
+
+/* Celda correcta tras validación */
+.text-field-sudoku.correct {
+    -fx-background-color: #aaffaa; /* verde claro */
+}
+
+/* Celda incorrecta tras validación */
+.text-field-sudoku.incorrect {
+    -fx-background-color: #ffaaaa; /* rojo claro */
+}
+
+/* Celda con input inválido (letra, número > 9, etc.) */
+.text-field-sudoku.invalid {
+    -fx-background-color: #ffdddd; /* rojo más suave */
+}
