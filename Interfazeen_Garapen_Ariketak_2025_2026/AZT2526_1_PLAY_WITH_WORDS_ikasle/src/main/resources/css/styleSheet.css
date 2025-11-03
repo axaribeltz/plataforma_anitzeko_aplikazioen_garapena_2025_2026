@@ -1,0 +1,81 @@
+.root {
+    -fx-background-color: #f0f4f8;
+}
+
+#txtLogin {
+    -fx-text-fill: #2ecc71;
+    -fx-font-size: 14pt;
+    -fx-alignment: center;
+    -fx-background-color: #fff;
+    -fx-border-radius: 3px;
+    -fx-font-weight: bold;
+    -fx-border-color: gray;
+    -fx-border-width: 1px;
+    -fx-effect:dropshadow(gaussian,grey,1,30,2,2);
+}
+
+#titleLabel {
+    -fx-text-fill: #2980b9;
+    -fx-font-size: 24pt;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+#txtOrangeLabel {
+    -fx-font-size: 30pt;
+    -fx-text-fill: #e74c3c;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.3;
+    -fx-alignment: center;
+    -fx-rotate: -20;
+}
+
+#txtPurpleLabel {
+    -fx-font-size: 30pt;
+    -fx-text-fill: #9b59b6;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.3;
+    -fx-alignment: center;
+    -fx-rotate: 20;
+    -fx-effect:dropshadow(gaussian,grey,1,30,2,2);
+}
+
+#txtBlueLabel {
+    -fx-font-size: 30pt;
+    -fx-text-fill: #3498db;
+    -fx-font-weight: bold;
+    -fx-opacity: 0.3;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-font-size: 10pt;
+    -fx-background-color: #2980b9;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.textField {
+    -fx-text-fill: #2ecc71;
+    -fx-font-weight: bold;
+}
+
+#btnUsersScore {
+    -fx-font-size: 10pt;
+    -fx-background-color: #2ecc71;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+#btnPlay {
+    -fx-font-size: 10pt;
+    -fx-background-color: #2ecc71;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}

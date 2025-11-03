@@ -81,7 +81,6 @@ public class PrimaryController implements Initializable {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 
     @FXML

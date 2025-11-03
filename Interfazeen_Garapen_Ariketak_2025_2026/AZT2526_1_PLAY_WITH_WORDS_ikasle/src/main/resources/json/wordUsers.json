@@ -1,0 +1,38 @@
+[
+  {
+    "nick": "lucia24",
+    "password": "passLucia",
+    "tipo": "player",
+    "score": 1280
+  },
+  {
+    "nick": "noraV",
+    "password": "passNora",
+    "tipo": "player",
+    "score": 1540
+  },
+  {
+    "nick": "emilyC",
+    "password": "passEmily",
+    "tipo": "player",
+    "score": 1725
+  },
+  {
+    "nick": "maiteEtx",
+    "password": "passMaite",
+    "tipo": "player",
+    "score": 1390
+  },
+  {
+    "nick": "walterFan88",
+    "password": "passWalter",
+    "tipo": "player",
+    "score": 980
+  },
+  {
+    "nick": "txapeldun",
+    "password": "passTxapeldun",
+    "tipo": "player",
+    "score": 1650
+  }
+]
