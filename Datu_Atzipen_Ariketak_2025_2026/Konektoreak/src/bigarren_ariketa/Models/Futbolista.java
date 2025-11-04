@@ -19,7 +19,7 @@ public class Futbolista {
         return dni;
     }
 
-        public void setDni(int dni) {
+    public void setDni(int dni) {
         this.dni = dni;
     }
 
