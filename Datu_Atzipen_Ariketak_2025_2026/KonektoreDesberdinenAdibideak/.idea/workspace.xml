@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e5c7812c-4cbd-4441-8937-7a323c15ac3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Konektoreak/src/hirugarren_ariketa/Models/ErabiltzaileMugimenduak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Konektoreak/src/hirugarren_ariketa/TransakzioaAPP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/Azterketa_Aritz.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/src/Ariketa_2/IstorioakBatu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/src/Ariketa_2/istoria_osoa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/src/Ariketa_2/istorioa_zatia1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/src/Ariketa_2/istorioa_zatia2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/src/Ariketa_2/istorioa_zatia3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/src/ariketa3/DatuAnalista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/src/ariketa3/Ikaslea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/src/ariketa3/ikaslea.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/src/ariketa_4/RandomAccessFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Azterketa_Aritz/src/ariketa_4/partehartzaileak.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/Errepaso.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/randomAdibidea.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a01/ErrepasoAriketa_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a02/ErrepasoAriketa_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a02/Pertsona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a02/pertsona.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a02/pertsona.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a03/ErrepasoAriketa_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a03/Idiazabal_bit.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a04/RandomAccesFilePringadillo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a04/randomAdibidea.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/Jokalariak.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/JokatuApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/model/Atezaina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/model/Aurrelaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/model/Defentsa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_Jokalariak/model/Jokalaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_JokalariakRefactor/Jokalariak.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_JokalariakRefactor/JokatuApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_JokalariakRefactor/model/Atezaina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_JokalariakRefactor/model/Aurrelaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_JokalariakRefactor/model/Defentsa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a05_JokalariakRefactor/model/Jokalaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a06_BufferedReader/ErrepasoAriketa_6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a06_BufferedReader/Komintern.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a07_RandomAccessFile/ErrepasoAriketa_7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a07_RandomAccessFile/textua.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Errepaso/src/ErrepasoAriketak/a07_RandomAccessFile/textuaBi.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/Fitxategi Mota Batzuen Adibidea.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/IrudienIdazketaAdibidea/IrudienIdazketa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/ObjektuBitarrakAdibidea/IdatziObjektuak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/ObjektuBitarrakAdibidea/IrakurriObjektua.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/ObjektuBitarrakAdibidea/Pertsona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/ObjektuBitarrakAdibidea/perOb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/RandomAccessAdibidea/AriketaAuzFitx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/RandomAccessAdibidea/AusazkoFitxategiak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/RandomAccessAdibidea/datuak.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/RandomAccessAdibidea/langileak.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/RandomAccessAdibidea/pertsona.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/datuak.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/out/production/Fitxategi Mota Batzuen Adibidea/FitxategiBitarrak/IrudiBitarrak/IrudienIdazketa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/out/production/Fitxategi Mota Batzuen Adibidea/FitxategiBitarrak/Objektuak/IdatziObjektuak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/out/production/Fitxategi Mota Batzuen Adibidea/FitxategiBitarrak/Objektuak/IrakurriObjektua.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/out/production/Fitxategi Mota Batzuen Adibidea/FitxategiBitarrak/Objektuak/Pertsona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/out/production/Fitxategi Mota Batzuen Adibidea/FitxategiBitarrak/Objektuak/perOb.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/out/production/Fitxategi Mota Batzuen Adibidea/RandomAccessFitxategiak/AriketaAuzFitx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/out/production/Fitxategi Mota Batzuen Adibidea/RandomAccessFitxategiak/AusazkoFitxategiak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/out/production/Fitxategi Mota Batzuen Adibidea/RandomAccessFitxategiak/datuak.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/out/production/Fitxategi Mota Batzuen Adibidea/RandomAccessFitxategiak/langileak.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Fitxategi Mota Batzuen Adibidea/out/production/Fitxategi Mota Batzuen Adibidea/RandomAccessFitxategiak/pertsona.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/.idea/libraries/mysql_connector_java_8_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/.idea/libraries/sqlite_jdbc_3_50_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/Konektoreak.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/SQLite/Bista/KontsolaBista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/SQLite/Kontroler/ZereginaKontroler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/SQLite/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/SQLite/Modeloa/Zeregina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/SQLite/Modeloa/db/DBZeregina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/SQLite/zereginak.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/bigarren_ariketa/FutbolAPP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/bigarren_ariketa/Models/Futbolista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/bigarren_ariketa/Models/Taldea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/bigarren_ariketa/Models/db/FutbolistaConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/bigarren_ariketa/Models/db/TaldeaConnect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/hirugarren_ariketa/Models/Connect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Konektoreak/src/lehen_ariketa/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/NikEgindakoak.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/datu-atzipena.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/DatuAtzipena.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/Erreferentziak/IdatziObjektua.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/Erreferentziak/IrakurriObjektua.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/Erreferentziak/Pertsona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/Erreferentziak/perOb.bit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/Idiazabal_gazta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/KlaseAbstraktuak/Animalia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/KlaseAbstraktuak/AnimaliaApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/KlaseAbstraktuak/HezurGabeak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/KlaseAbstraktuak/Hezurdunak.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/KlaseAbstraktuak/animaliaOb.bit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/Pertsona/AriketaAuzFitx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/Pertsona/NirePertsona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/Pertsona/Pertsona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/Pertsona/perOb.bit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/Pertsona/pertsona.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/RandomAccesFitxategia/Artikuloa.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/RandomAccesFitxategia/AusazkoFitxategia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/Nik Egindakoak/src/RandomAccesFitxategia/LangileBatenDatuak.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/DatuAtzipena.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/Erreferentziak/IdatziObjektua.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/Erreferentziak/IrakurriObjektua.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/Erreferentziak/Pertsona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/Erreferentziak/perOb.bit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/Idiazabal_gazta.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/KlaseAbstraktuak/Animalia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/KlaseAbstraktuak/AnimaliaApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/KlaseAbstraktuak/HezurGabeak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/KlaseAbstraktuak/Hezurdunak.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/KlaseAbstraktuak/animaliaOb.bit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/Pertsona/NirePertsona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/Pertsona/Pertsona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/Pertsona/perOb.bit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/Pertsona/pertsona.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/RandomAccesFitxategia/Artikuloa.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/RandomAccesFitxategia/AusazkoFitxategia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/RandomAccesFitxategia/LangileBatenDatuak.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Datu_Atzipen_Ariketak_2025_2026/out/production/datu-atzipena/RandomAccessFitxategiak/AriketaAuzFitx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/src/main/java/com/mycompany/estiloariketak/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/src/main/java/com/mycompany/estiloariketak/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/src/main/resources/com/mycompany/css/myStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/src/main/resources/com/mycompany/estiloariketak/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/target/classes/com/mycompany/css/myStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/target/classes/com/mycompany/estiloariketak/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/target/classes/com/mycompany/estiloariketak/PrimaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/target/classes/com/mycompany/estiloariketak/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-EstiloAriketak/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/bin/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/bin/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/bin/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/bin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/01-hasierako-ariketak-aritz-ibanez/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-EstiloAriketak/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-EstiloAriketak/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-EstiloAriketak/src/main/java/com/mycompany/estiloariketak/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-EstiloAriketak/src/main/java/com/mycompany/estiloariketak/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-EstiloAriketak/src/main/java/com/mycompany/estiloariketak/SecondaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-EstiloAriketak/src/main/java/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-EstiloAriketak/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-EstiloAriketak/src/main/resources/com/mycompany/estiloariketak/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-EstiloAriketak/src/main/resources/com/mycompany/estiloariketak/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/myStylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/java/com/mycompany/irudiak/ariketak/aritz/ibanez/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/java/com/mycompany/irudiak/ariketak/aritz/ibanez/IrudiaGridPaneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/java/com/mycompany/irudiak/ariketak/aritz/ibanez/IrudiaIkustaraziController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/java/com/mycompany/irudiak/ariketak/aritz/ibanez/IrudiakController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/java/com/mycompany/irudiak/ariketak/aritz/ibanez/IrudiakMenubarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/java/com/mycompany/irudiak/ariketak/aritz/ibanez/IrudienCarrouselController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/java/com/mycompany/irudiak/ariketak/aritz/ibanez/MenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/com/mycompany/irudiak/ariketak/aritz/ibanez/irudiaGridPane.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/com/mycompany/irudiak/ariketak/aritz/ibanez/irudiaIkustarazi.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/com/mycompany/irudiak/ariketak/aritz/ibanez/irudiak.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/com/mycompany/irudiak/ariketak/aritz/ibanez/irudiakMenubar.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/com/mycompany/irudiak/ariketak/aritz/ibanez/irudienCarrousel.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/com/mycompany/irudiak/ariketak/aritz/ibanez/menu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/ajolote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/aye_aye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/cangrejoYeti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/chauliodus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/diablilloespinoso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/dragonMarino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/gusanoCalamar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/mixini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/petaurodelazucar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/pezmancha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/pezsapopeludo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/picozapato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/pulpoDumbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/ratonLemur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/solenodonte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/tardigrado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/thumbAjolote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/tiburonGroenlandia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/images/topoNarizEstrella.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/ajolote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/aye_aye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/cangrejoYeti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/chauliodus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/diablilloespinoso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/dragonMarino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/gusanoCalamar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/mixini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/petaurodelazucar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/pezmancha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/pezsapopeludo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/picozapato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/pulpoDumbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/ratonLemur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/solenodonte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/tardigrado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/thumbAjolote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/tiburonGroenlandia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/02-irudiak-ariketak-aritz-ibanez/src/main/resources/img/topoNarizEstrella.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/GehituPertsonaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/LoginScreenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/MenuaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/MirrorsAplication2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/MirrorsAplicationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/PasswordScreenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/PersonDetailsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/ProfileScreenController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/TaulaPertsonakController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/TaulaPertsonak_2Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/com/mycompany/css/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/modelo/Pertsona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/TaulaPertsonak_2.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/css/loginStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/css/mirrorsStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/css/myStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/gehituPertsona.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/loginScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/menua.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/mirrorsAplication.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/mirrorsAplication2.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/passwordScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/personDetails.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/profileScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/com/mycompany/css/taulaPertsonak.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/ajolote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/aye_aye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/cangrejoYeti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/chauliodus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/diablilloespinoso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/dragonMarino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/gusanoCalamar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/mixini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/omakoBasoa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/pagadia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/petaurodelazucar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/pezmancha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/pezsapopeludo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/picozapato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/pulpoDumbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/ratonLemur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/solenodonte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/tardigrado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/thumbAjolote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/tiburonGroenlandia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/topoNarizEstrella.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/src/main/resources/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/GehituPertsonaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/LoginScreenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/MenuaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/MirrorsAplication2Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/MirrorsAplicationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/PasswordScreenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/PersonDetailsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/ProfileScreenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/TaulaPertsonakController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/TaulaPertsonak_2.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/TaulaPertsonak_2Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/css/loginStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/css/mirrorsStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/css/myStyleSheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/gehituPertsona.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/loginScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/menua.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/mirrorsAplication.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/mirrorsAplication2.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/passwordScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/personDetails.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/profileScreen.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/com/mycompany/css/taulaPertsonak.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/ajolote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/aye_aye.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/cangrejoYeti.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/chauliodus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/diablilloespinoso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/dragonMarino.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/gusanoCalamar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/mixini.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/omakoBasoa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/pagadia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/petaurodelazucar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/pezmancha.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/pezsapopeludo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/picozapato.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/pulpoDumbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/ratonLemur.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/solenodonte.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/tardigrado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/thumbAjolote.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/tiburonGroenlandia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/topoNarizEstrella.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/img/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/modelo/Pertsona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/03-css/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-pertsonakModifikatu/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-pertsonakModifikatu/src/main/java/com/mycompany/pertsonakmodifikatu/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-pertsonakModifikatu/src/main/java/com/mycompany/pertsonakmodifikatu/SystemInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-pertsonakModifikatu/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/src/main/java/com/mycompany/tablapertsonakmodifikatu/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/src/main/java/com/mycompany/tablapertsonakmodifikatu/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/src/main/java/com/mycompany/tablapertsonakmodifikatu/SecondaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/src/main/java/modelo/Pertsona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/src/main/resources/com/mycompany/tablapertsonakmodifikatu/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/src/main/resources/com/mycompany/tablapertsonakmodifikatu/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/target/classes/com/mycompany/tablapertsonakmodifikatu/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/target/classes/com/mycompany/tablapertsonakmodifikatu/PrimaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/target/classes/com/mycompany/tablapertsonakmodifikatu/SecondaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/target/classes/com/mycompany/tablapertsonakmodifikatu/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/target/classes/com/mycompany/tablapertsonakmodifikatu/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/target/classes/modelo/Pertsona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/04-tablaPertsonakModifikatu/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/src/main/java/com/mycompany/ariketakjson/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/src/main/java/com/mycompany/ariketakjson/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/src/main/java/com/mycompany/ariketakjson/SecondaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/src/main/java/modelo/Jokalaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/src/main/resources/com/mycompany/ariketakjson/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/src/main/resources/com/mycompany/ariketakjson/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/target/classes/com/mycompany/ariketakjson/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/target/classes/com/mycompany/ariketakjson/PrimaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/target/classes/com/mycompany/ariketakjson/SecondaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/target/classes/com/mycompany/ariketakjson/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/target/classes/com/mycompany/ariketakjson/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/target/classes/modelo/Jokalaria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-AriketakJson/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/src/main/java/com/mycompany/jsonariketak/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/src/main/java/com/mycompany/jsonariketak/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/src/main/java/models/Pertsona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/src/main/resources/com/mycompany/jsonariketak/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/src/main/resources/json/pertsonak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/target/classes/com/mycompany/jsonariketak/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/target/classes/com/mycompany/jsonariketak/PrimaryController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/target/classes/com/mycompany/jsonariketak/PrimaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/target/classes/com/mycompany/jsonariketak/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/target/classes/json/pertsonak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/target/classes/models/Pertsona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/05-JsonAriketak/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/src/main/java/com/mycompany/jsonariketak/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/src/main/java/com/mycompany/jsonariketak/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/src/main/java/com/mycompany/jsonariketak/SecondaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/src/main/java/models/Pertsona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/src/main/resources/com/mycompany/jsonariketak/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/src/main/resources/com/mycompany/jsonariketak/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/src/main/resources/json/pertsonak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/classes/com/mycompany/jsonariketak/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/classes/com/mycompany/jsonariketak/PrimaryController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/classes/com/mycompany/jsonariketak/PrimaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/classes/com/mycompany/jsonariketak/SecondaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/classes/com/mycompany/jsonariketak/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/classes/com/mycompany/jsonariketak/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/classes/json/pertsonak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/classes/models/Pertsona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/06-JsonAriketak/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/src/main/java/com/mycompany/tableview/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/src/main/java/com/mycompany/tableview/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/src/main/java/com/mycompany/tableview/SecondaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/src/main/java/models/Pertsona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/src/main/resources/com/mycompany/tableview/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/src/main/resources/com/mycompany/tableview/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/target/classes/com/mycompany/tableview/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/target/classes/com/mycompany/tableview/PrimaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/target/classes/com/mycompany/tableview/SecondaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/target/classes/com/mycompany/tableview/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/target/classes/com/mycompany/tableview/secondary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/target/classes/models/Pertsona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/07-TableView/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/src/main/java/com/mycompany/ariketakjson/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/src/main/java/com/mycompany/ariketakjson/PrimaryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/src/main/java/models/Bezeroa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/src/main/java/models/Langilea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/src/main/resources/com/mycompany/ariketakjson/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/src/main/resources/json/bezeroak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/src/main/resources/json/langileak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/classes/com/mycompany/ariketakjson/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/classes/com/mycompany/ariketakjson/PrimaryController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/classes/com/mycompany/ariketakjson/PrimaryController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/classes/com/mycompany/ariketakjson/PrimaryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/classes/com/mycompany/ariketakjson/primary.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/classes/json/bezeroak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/classes/json/langileak.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/classes/models/Bezeroa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/classes/models/Langilea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Interfazeen_Garapen_Ariketak_2025_2026/com.mycompany_05-AriketakJson_jar_1.0-SNAPSHOT/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.lock_info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.mylyn/repositories.xml.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.buildship.core/gradle/versions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.location" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.epp.mpc.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.discovery.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.navigator.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.epp.mpc.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.mylyn.github.ui/avatars.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.ui.editors/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.ui.intro/introstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.metadata/version.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_ebaluazioko_azterketa_ariketa_1/ProzesuA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_ebaluazioko_azterketa_ariketa_1/ProzesuB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_ebaluazioko_azterketa_ariketa_1/ProzesuNagusia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_ebaluazioko_azterketa_ariketa_2/Bezeroa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_3_3_ariketa/Batuketa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_3_3_ariketa/BatuketaAbiarazlea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_3_4_ariketa/Itxaron.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_3_4_ariketa/ItxaronAbiarazlea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_4_1_ariketa/Batuketa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_4_1_ariketa/BatuketaAbiarazlea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_4_3_ariketa/Batuketa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_4_3_ariketa/BatuketaAbiarazlea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_5_ariketa/AzkenBatura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_5_ariketa/Batuketa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_1_gaia_5_ariketa/BatuketaAbiarazlea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_2_gaia/_2_ariketa/Kontainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_2_gaia/_2_ariketa/Sinkronizazioa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_3_gaia_1_ariketa/BezeroKudeatzailea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_3_gaia_1_ariketa/Bezeroa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_3_gaia_1_ariketa/Zerbitzaria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_3_gaia_2_ariketa/BezeroaUDP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/_3_gaia_2_ariketa/ZerbitzariaUDP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ordenatzeko/Zerbitzu_Prozesu_Ariketak_2025_2026/src/module-info.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="34jQhBOEMlHLUmUp8eHn7qdEa7F" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/2AM3-4/Documents/plataforma_anitzeko_aplikazioen_garapena_2025_2026/Datu_Atzipen_Ariketak_2025_2026/KonektoreDesberdinenAdibideak&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5c7812c-4cbd-4441-8937-7a323c15ac3c" name="Changes" comment="" />
+      <created>1761724618265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761724618265</updated>
+    </task>
+    <servers />
+  </component>
+</project>
