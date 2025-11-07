@@ -19,7 +19,7 @@ package _2_gaia._2_ariketa;
 class Kontainer {
     private int segunduak = 0;
 
-    // Honek hariak itxaronarazten ditu segunduak eguneratu arte
+    // Honek hariak itxarotzen ditu segunduak eguneratu arte
     public synchronized void itxaronMezua() {
         try {
             wait(); // itxaron eguneraketa iritsi arte

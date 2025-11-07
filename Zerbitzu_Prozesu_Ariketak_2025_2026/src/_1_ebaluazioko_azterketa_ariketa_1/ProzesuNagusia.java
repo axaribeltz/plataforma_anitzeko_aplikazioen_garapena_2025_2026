@@ -20,13 +20,6 @@ public class ProzesuNagusia {
             OutputStreamWriter outputStreamWriterA = new OutputStreamWriter(processA.getOutputStream());
             BufferedReader bufferedReaderA = new BufferedReader(new InputStreamReader(processA.getInputStream()));
             
-            /* ProcessBuilder processBuilderA = new ProcessBuilder("java", "-cp", "bin", "_1_ebaluazioko_azterketa_ariketa_1.ProzesuA");
-            processBuilderA.inheritIO();
-            processBuilderA.redirectInput(Redirect.PIPE);
-            processBuilderA.redirectError();
-            Process processA = processBuilderA.start();
-            System.out.println("NAGUSIA: A Prozesua abiarazi da."); */
-            
             // B prozesua abiarazi
             ProcessBuilder processBuilderB = new ProcessBuilder("java", "-cp", "bin", "_1_ebaluazioko_azterketa_ariketa_1.ProzesuB");
             Process processB = processBuilderB.start();
@@ -41,8 +34,6 @@ public class ProzesuNagusia {
                 outputStreamWriterA.write(zenbakia + "\n");
                 outputStreamWriterA.flush();
                 
-                /* String emaitzaA = errorAReader.readLine();
-                System.out.println(emaitzaA); */
 
                 // b) A prozesuaren erantzuna jaso eta pantailan bistaratu.
                 String aErantzuna = bufferedReaderA.readLine();

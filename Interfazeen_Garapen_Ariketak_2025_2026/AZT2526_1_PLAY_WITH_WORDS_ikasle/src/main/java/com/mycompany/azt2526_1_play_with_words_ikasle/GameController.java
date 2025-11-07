@@ -13,7 +13,6 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
-
 import models.User;
 
 public class GameController implements Initializable {
@@ -35,7 +34,7 @@ public class GameController implements Initializable {
     @FXML
     private Button btnSolve;
     @FXML
-    private TextField lblLetter; // TextField para introducir la letra
+    private TextField lblLetter; 
     @FXML
     private TextField lblWord;
     @FXML
@@ -43,34 +42,45 @@ public class GameController implements Initializable {
 
     private final User gameUser = new User("Aritz", "12345", "player", 123);
 
-    String[] wordsArray = {"mendebaldea", "argitasuna", "zientzia", "ikastetxea", "liburutegia", "egunkaria", "gizarte", "hezkuntza", "irakasleak", "euskarazko", "berdintasuna", "kulturala", "herritarra", "elkarrizketa", "ekintzailea", "garapena", "komunikazioa", "ikerketa", "teknologia", "adiskidetasun", "berrikuntza", "ingurumena", "hizkuntza", "elkartea", "proiektua", "aurkezpena", "sormena", "jarduera", "bizikidetza", "gogoeta"};
-    String hitzaRandom = wordsArray[new Random().nextInt(wordsArray.length)];
-    int karaktereKopurua = hitzaRandom.length();
-    private final TextField[] gridTextFields = new TextField[karaktereKopurua];
+    private final String[] wordsArray = {
+        "mendebaldea", "argitasuna", "zientzia", "ikastetxea", "liburutegia",
+        "egunkaria", "gizarte", "hezkuntza", "irakasleak", "euskarazko",
+        "berdintasuna", "kulturala", "herritarra", "elkarrizketa", "ekintzailea",
+        "garapena", "komunikazioa", "ikerketa", "teknologia", "adiskidetasun",
+        "berrikuntza", "ingurumena", "hizkuntza", "elkartea", "proiektua",
+        "aurkezpena", "sormena", "jarduera", "bizikidetza", "gogoeta"
+    };
+
+    private String hitzaRandom;
+    private TextField[] gridTextFields;
+    private int puntuJokoan;
+    private boolean partidaAktibo = false;
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        System.out.println("Random hitza: " + hitzaRandom);
         showUserDate(gameUser);
+        getNewWord();
         crearCeldas();
-    }
-
-    private void crearCeldas() {
-        for (int col = 0; col < karaktereKopurua; col++) {
-            TextField tf = new TextField();
-            tf.setPrefSize(100, 100);
-            tf.setAlignment(Pos.CENTER);
-            tf.setStyle("-fx-border-color: blue; -fx-border-width: 1;");
-            tf.setEditable(false); // Impide que el usuario escriba directamente
-            gridTextFields[col] = tf;
-            gridPane.add(tf, col, 0);
-        }
+        partidaAktibo = true;
     }
 
     private void showUserDate(User gameUser) {
         userName.setText(gameUser.getNick());
         userScore.setText(String.valueOf(gameUser.getScore()));
-        pointsAtPlay.setText(String.valueOf(karaktereKopurua));
+    }
+
+    private void crearCeldas() {
+        gridPane.getChildren().clear();
+        gridTextFields = new TextField[hitzaRandom.length()];
+        for (int col = 0; col < hitzaRandom.length(); col++) {
+            TextField tf = new TextField();
+            tf.setPrefSize(100, 100);
+            tf.setAlignment(Pos.CENTER);
+            tf.setStyle("-fx-border-color: blue; -fx-border-width: 1;");
+            tf.setEditable(false);
+            gridTextFields[col] = tf;
+            gridPane.add(tf, col, 0);
+        }
     }
 
     @FXML
@@ -80,69 +90,103 @@ public class GameController implements Initializable {
 
     @FXML
     private void btnStart(ActionEvent event) {
+        partidaAktibo = true;
         getNewWord();
-        resetGrid(); // Resetea el grid con la nueva palabra
+        crearCeldas();
     }
 
     @FXML
     private void btnReset(ActionEvent event) {
         getNewWord();
-        resetGrid(); // Resetea el grid con la nueva palabra
+        crearCeldas();
     }
 
     @FXML
     private void SwitchLetter(ActionEvent event) {
-        if (Integer.parseInt(pointsAtPlay.getText()) > 2) {
-            String letraIngresada = lblLetter.getText().trim().toLowerCase(); // Obtiene la letra del TextField y la convierte a minúsculas
+        if (!partidaAktibo) {
+            Alert("Hasi lehenengo partida bat.");
+            return;
+        }
 
-            if (letraIngresada.isEmpty()) {
-                Alert("Ez dago karektarik idatzita");
-                return; // Sale del método si no hay letra
+        String letraIngresada = lblLetter.getText().trim().toLowerCase();
+        if (letraIngresada.isEmpty()) {
+            Alert("Ez dago karektarik idatzita");
+            return;
+        }
+        if (letraIngresada.length() > 1) {
+            Alert("Karaktere bat bakarrik sartu behar duzu.");
+            return;
+        }
+
+        char letra = letraIngresada.charAt(0);
+        boolean letraAcertada = false;
+
+        for (int i = 0; i < hitzaRandom.length(); i++) {
+            if (hitzaRandom.charAt(i) == letra) {
+                gridTextFields[i].setText(String.valueOf(letra));
+                letraAcertada = true;
             }
+        }
 
-            if (letraIngresada.length() > 1) {
-                Alert("Karaktere bat bakarrik sartu behar duzu.");
-                return; // Sale del método si hay más de un caracter
+        if (!letraAcertada) {
+            puntuJokoan--;
+            pointsAtPlay.setText(String.valueOf(puntuJokoan));
+            Alert("Letra hori ez dago hitzean. Puntu bat galdu duzu.");
+            if (puntuJokoan <= 0) {
+                Alert("Galdu duzu partida!");
+                partidaAktibo = false;
             }
+        }
 
-            char letra = letraIngresada.charAt(0);
+        lblLetter.clear();
 
-            boolean letraAcertada = false; // Flag para controlar si se ha acertado alguna letra
-
-            for (int i = 0; i < hitzaRandom.length(); i++) {
-                if (hitzaRandom.charAt(i) == letra) {
-                    gridTextFields[i].setText(String.valueOf(letra));
-                    letraAcertada = true;
-                }
-            }
-
-            if (!letraAcertada) {
-                Alert("Letra hori ez dago hitzean.");
-            }
-
-            lblLetter.clear(); // Limpia el TextField después de cada intento.
-
-        } else {
-            Alert("Ez duzu puntu nahikorik letra bat erakusteko.");
+        // Comprobamos si ha ganado
+        if (haGanado()) {
+            InfoAlert("ZORIONAK! Asmatuta!");
+            partidaAktibo = false;
+            gameUser.setScore(gameUser.getScore() + 1);
+            userScore.setText(String.valueOf(gameUser.getScore()));
         }
     }
 
-
     @FXML
     private void SwitchSolve(ActionEvent event) {
-        String enteredWord = lblWord.getText();
+        if (!partidaAktibo) {
+            Alert("Hasi lehenengo partida bat.");
+            return;
+        }
+
+        String enteredWord = lblWord.getText().trim().toLowerCase();
+        if (enteredWord.isEmpty()) {
+            Alert("Idatzi hitza lehenengo.");
+            return;
+        }
 
         if (enteredWord.equals(hitzaRandom)) {
-            InfoAlert("CORRECT!!! YOU HAVE 1 MORE POINTS");
-            resetGrid(); // Limpia el grid después de adivinar
+            InfoAlert("CORRECT!!! YOU HAVE 1 MORE POINT");
+            gameUser.setScore(gameUser.getScore() + 1);
+            userScore.setText(String.valueOf(gameUser.getScore()));
         } else {
             Alert("You lost");
         }
+
+        partidaAktibo = false;
+        lblWord.clear();
+    }
+
+    private boolean haGanado() {
+        for (int i = 0; i < hitzaRandom.length(); i++) {
+            if (gridTextFields[i].getText().isEmpty()) {
+                return false;
+            }
+        }
+        return true;
     }
 
     private void getNewWord() {
         hitzaRandom = wordsArray[new Random().nextInt(wordsArray.length)];
-        karaktereKopurua = hitzaRandom.length(); // Actualiza la longitud
+        puntuJokoan = hitzaRandom.length();
+        pointsAtPlay.setText(String.valueOf(puntuJokoan));
         System.out.println("Palabra Random: " + hitzaRandom);
     }
 
@@ -156,15 +200,9 @@ public class GameController implements Initializable {
 
     private void Alert(String mezua) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
-        alert.setTitle("LOSSER");
+        alert.setTitle("INFO");
         alert.setHeaderText(null);
         alert.setContentText(mezua);
         alert.showAndWait();
     }
-
-    private void resetGrid() {
-        gridPane.getChildren().clear(); // Limpia el GridPane
-        crearCeldas(); // Vuelve a crear las celdas con la nueva longitud
-    }
-
 }
