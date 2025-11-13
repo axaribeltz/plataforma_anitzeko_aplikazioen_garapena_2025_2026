@@ -1,4 +1,4 @@
-package _1_ebaluazioko_azterketa_ariketa_1;
+package AZTERKETA_1_EBALUAKETA_BAT;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class ProzesuA {
 
     public static void main(String[] args) {
             try {
-                ProcessBuilder processBuilderB = new ProcessBuilder("java", "-cp", "bin", "_1_ebaluazioko_azterketa_ariketa_1.ProzesuB");
+                ProcessBuilder processBuilderB = new ProcessBuilder("java", "-cp", "bin", "AZTERKETA_1_EBALUAKETA_BAT.ProzesuB");
                 processBuilderB.redirectInput(Redirect.PIPE);
                 processBuilderB.redirectOutput(Redirect.PIPE);
                 processBuilderB.redirectError(Redirect.INHERIT);

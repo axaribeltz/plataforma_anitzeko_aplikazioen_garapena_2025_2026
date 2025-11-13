@@ -1,0 +1,17 @@
+.root {
+    -fx-background-color: #d3d3d3;
+}
+
+.button {
+    -fx-font-size: 10pt;
+    -fx-background-color: #2980b9;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+tableView.tableColumn {
+    -fx-background-color: #2980b9;
+    -fx-text-fill: white;
+}
