@@ -25,7 +25,6 @@ import javafx.stage.Stage;
 import modeloa.Bezeroak;
 import modeloa.DBBezeroak;
 
-
 /**
  * FXML Controller class
  *
@@ -47,26 +46,22 @@ public class PrimaryController implements Initializable {
     private TableColumn<Bezeroak, String> colMugikorra;
     @FXML
     private TableColumn<Bezeroak, LocalDate> colJaiotzeData;
-    
+
     private DBBezeroak dbBezeroak;
 
     /**
      * Initializes the controller class.
      */
-        
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         dbBezeroak = new DBBezeroak();
-        
-        // 1. Configurar las columnas
+
         colId.setCellValueFactory(new PropertyValueFactory<>("id"));
         colIzena.setCellValueFactory(new PropertyValueFactory<>("izena"));
         colHiria.setCellValueFactory(new PropertyValueFactory<>("hiria"));
         colSexua.setCellValueFactory(new PropertyValueFactory<>("sexua"));
         colMugikorra.setCellValueFactory(new PropertyValueFactory<>("mugikorra"));
         colJaiotzeData.setCellValueFactory(new PropertyValueFactory<>("jaiotzeData"));
-
-        // 2. Obtener los datos y añadirlos al TableView
         bezeroakKargatu();
     }
 
@@ -80,14 +75,14 @@ public class PrimaryController implements Initializable {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("secondary.fxml"));
             Stage newClientStage = new Stage();
-            
+
             Scene scene = new Scene(fxmlLoader.load());
             newClientStage.setScene(scene);
 
             SecondaryController secondaryCOntroller = fxmlLoader.getController();
             secondaryCOntroller.setPrimaryController(this); // Pasar una referencia al controlador principal
 
-            newClientStage.showAndWait(); // Muestra la ventana y espera a que se cierre
+            newClientStage.showAndWait(); 
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -95,30 +90,31 @@ public class PrimaryController implements Initializable {
 
     @FXML
     private void ModifyClient(ActionEvent event) {
-        Bezeroak selectedBezeroa = tableView.getSelectionModel().getSelectedItem();
+        Bezeroak hautatua = tableView.getSelectionModel().getSelectedItem();
 
-        if (selectedBezeroa != null) {
-            try {
-                FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("secondary.fxml"));
-                Stage secondaryStage = new Stage();
-                secondaryStage.setTitle("Modificar Cliente");
-                secondaryStage.initModality(Modality.APPLICATION_MODAL);
-                secondaryStage.initOwner(((javafx.scene.Node) event.getSource()).getScene().getWindow());
-
-                Scene scene = new Scene(fxmlLoader.load());
-                secondaryStage.setScene(scene);
-
-                SecondaryController secondaryController = fxmlLoader.getController();
-                secondaryController.setPrimaryController(this); // Pass the primary controller
-                secondaryController.setBezeroa(selectedBezeroa); // Pass the selected Bezeroak
-                secondaryStage.showAndWait();
-                bezeroakKargatu(); // Recargar datos después de cerrar la ventana de modificación
-            } catch (IOException e) {
-                e.printStackTrace();
-                showAlertError("Errorea bezeroa editatzean: " + e.getMessage());
-            }
-        } else {
+        if (hautatua == null) {
             showAlertError("Hautatu bezero bat editatzeko.");
+            return;
+        }
+
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("secondary.fxml"));
+            Stage stage = new Stage();
+
+            Scene scene = new Scene(loader.load());
+            stage.setScene(scene);
+
+            SecondaryController controller = loader.getController();
+            controller.setPrimaryController(this);
+            controller.loadClientData(hautatua);  
+
+            stage.initModality(Modality.APPLICATION_MODAL);
+            stage.showAndWait();
+
+            bezeroakKargatu(); 
+
+        } catch (Exception e) {
+            showAlertError("Errorea bezeroa editatzean: " + e.getMessage());
         }
     }
 
@@ -127,8 +123,8 @@ public class PrimaryController implements Initializable {
         Bezeroak bezeroa = tableView.getSelectionModel().getSelectedItem();
         if (bezeroa != null) {
             try {
-                dbBezeroak.bezeroaEzabatu(bezeroa.getId()); // Eliminar de la base de datos
-                bezeroakKargatu(); // Recargar los datos
+                dbBezeroak.bezeroaEzabatu(bezeroa.getId());
+                bezeroakKargatu();
             } catch (Exception e) {
                 showAlertError("Errorea bezeroa ezabatzean: " + e.getMessage());
             }
@@ -141,7 +137,7 @@ public class PrimaryController implements Initializable {
     private void CloseApp(ActionEvent event) {
         Platform.exit();
     }
-    
+
     private void showAlertError(String error) {
         Alert alert = new Alert(Alert.AlertType.ERROR);
         alert.setHeaderText("Error");
@@ -149,7 +145,7 @@ public class PrimaryController implements Initializable {
         alert.setContentText(error);
         alert.showAndWait();
     }
-    
+
     public DBBezeroak getDbBezeroak() {
         return dbBezeroak;
     }

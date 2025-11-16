@@ -109,7 +109,7 @@ public class DBBezeroak {
     }
 
     public void bezeroaEguneratu(Bezeroak bezeroa) throws SQLException {
-        String sql = "UPDATE bezeroak SET izena = ?, helbidea = ?, postaKodea = ?, telefonoa = ?, fecha_nacimiento = ? WHERE id = ?";
+        String sql = "UPDATE cliente SET nombres=?, ciudad=?, sexo=?, telefono=?, fecha_nacimiento=? WHERE id=?";
 
         try (Connection konexioa = konektatu(); PreparedStatement pstmt = konexioa.prepareStatement(sql)) {
 
@@ -117,20 +117,14 @@ public class DBBezeroak {
             pstmt.setString(2, bezeroa.getHiria());
             pstmt.setString(3, bezeroa.getSexua());
             pstmt.setString(4, bezeroa.getMugikorra());
-            pstmt.setDate(5, bezeroa.getJaiotzeData() != null ? Date.valueOf(bezeroa.getJaiotzeData()) : null);
-            pstmt.setInt(6, bezeroa.getId()); // Set the ID for the WHERE clause
+            pstmt.setDate(5, Date.valueOf(bezeroa.getJaiotzeData()));
+            pstmt.setInt(6, bezeroa.getId());
 
-            int affectedRows = pstmt.executeUpdate();
-
-            if (affectedRows > 0) {
-                System.out.println("Bezeroa eguneratuta, ID: " + bezeroa.getId());
-            } else {
-                System.out.println("Ez da bezerorik aurkitu ID honekin: " + bezeroa.getId());
-                throw new SQLException("Ez da bezerorik aurkitu ID honekin: " + bezeroa.getId());
-            }
+            pstmt.executeUpdate();
+            System.out.println("Bezeroa eguneratua: " + bezeroa.getId());
 
         } catch (SQLException e) {
-            System.err.println("Errorea bezeroa eguneratzean: " + e.getMessage());
+            System.err.println("Errorea eguneratzean: " + e.getMessage());
             throw e;
         }
     }
